@@ -14,4 +14,4 @@ jobs:
                     username: ${{ secrets.SERVER_USERNAME }}
                     key: ${{ secrets.SERVER_SSH_KEY }} 
                     port: ${{ secrets.SERVER_SSH_PORT }}
-                    script: "${{ vars.DEPLOY_SCRIPT }}"
+                    script: ${{ vars.DEPLOY_SCRIPT }}
